@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad="http://www.conformiq.com/emf/16/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <ad:ActivityDiagram xmi:id="_jtOqkOfrEeyL65lmF-YM2A" type="qmld35cd6a903d74ce1b465b3e05abefcfe">
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_kx5Mm-frEeyL65lmF-YM2A" to="_kx5MkefrEeyL65lmF-YM2A" from="_kx5MkOfrEeyL65lmF-YM2A"/>
+    <nodes xmi:type="ad:InitialNode" xmi:id="_kx5MkOfrEeyL65lmF-YM2A" name="Initial Node" controlFlowsOut="_kx5Mm-frEeyL65lmF-YM2A"/>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_kx5MkefrEeyL65lmF-YM2A" name="Activity Node 1" controlFlowsIn="_kx5Mm-frEeyL65lmF-YM2A">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_kx5MkufrEeyL65lmF-YM2A" methodRef="qml882a943012744ac78d30984d67843e87_Send_To_qml01ac4e82530a46c09b62681824835c56">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_kx5Mk-frEeyL65lmF-YM2A">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_kx5MlOfrEeyL65lmF-YM2A" methodRef="qml882a943012744ac78d30984d67843e87_Dont_Care_Value"/>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_kx5MlefrEeyL65lmF-YM2A" methodRef="qmla557fbf50c564c4e8025242d322715bc_Receive_From_qml4e4f3daeb0e74069af479b2ab7917a07">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_kx5MlufrEeyL65lmF-YM2A">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_kx5Ml-frEeyL65lmF-YM2A" methodRef="qmla557fbf50c564c4e8025242d322715bc_Dont_Care_Value"/>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_kx5MmOfrEeyL65lmF-YM2A" methodRef="name_tag">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_kx5MmefrEeyL65lmF-YM2A">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_kx5MmufrEeyL65lmF-YM2A" value="CustomerInfoRequestResponse"/>
+        </inputArgs>
+      </actionInvocations>
+    </nodes>
+  </ad:ActivityDiagram>
+  <notation:Diagram xmi:id="_jtOqkefrEeyL65lmF-YM2A" type="ConformiqActivityChart" element="_jtOqkOfrEeyL65lmF-YM2A" name="Activity Diagram2.ad" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_kx5MnOfrEeyL65lmF-YM2A" type="2004" element="_kx5MkOfrEeyL65lmF-YM2A">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_kx5MnefrEeyL65lmF-YM2A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_kx5MnufrEeyL65lmF-YM2A" fontName="Segoe UI"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_kx5Mn-frEeyL65lmF-YM2A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kx5MoOfrEeyL65lmF-YM2A" x="303" y="112" width="40" height="40"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_kx5MoefrEeyL65lmF-YM2A" type="2006" element="_kx5MkefrEeyL65lmF-YM2A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_kx5MpefrEeyL65lmF-YM2A" type="5006"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kx5MpufrEeyL65lmF-YM2A" type="7001">
+        <children xmi:type="notation:Node" xmi:id="_kyCWgOfrEeyL65lmF-YM2A" type="3001" element="_kx5MkufrEeyL65lmF-YM2A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kyCWhefrEeyL65lmF-YM2A" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_kyCWgefrEeyL65lmF-YM2A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kyCWgufrEeyL65lmF-YM2A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_kyCWg-frEeyL65lmF-YM2A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kyCWhOfrEeyL65lmF-YM2A"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kyCWhufrEeyL65lmF-YM2A" type="3001" element="_kx5MlefrEeyL65lmF-YM2A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kyCWi-frEeyL65lmF-YM2A" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_kyCWh-frEeyL65lmF-YM2A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kyCWiOfrEeyL65lmF-YM2A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_kyCWiefrEeyL65lmF-YM2A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kyCWiufrEeyL65lmF-YM2A"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kyCWjOfrEeyL65lmF-YM2A" type="3001" element="_kx5MmOfrEeyL65lmF-YM2A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_kyCWkefrEeyL65lmF-YM2A" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_kyCWjefrEeyL65lmF-YM2A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kyCWjufrEeyL65lmF-YM2A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_kyCWj-frEeyL65lmF-YM2A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kyCWkOfrEeyL65lmF-YM2A"/>
+        </children>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kx5Mp-frEeyL65lmF-YM2A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kx5MqOfrEeyL65lmF-YM2A"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_kx5MoufrEeyL65lmF-YM2A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_kx5Mo-frEeyL65lmF-YM2A" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kx5MpOfrEeyL65lmF-YM2A" x="208" y="182" width="230" height="113"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jtOqkufrEeyL65lmF-YM2A"/>
+    <edges xmi:type="notation:Edge" xmi:id="_kyCWkufrEeyL65lmF-YM2A" type="4001" element="_kx5Mm-frEeyL65lmF-YM2A" source="_kx5MnOfrEeyL65lmF-YM2A" target="_kx5MoefrEeyL65lmF-YM2A">
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_kyCWk-frEeyL65lmF-YM2A"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_kyCWlOfrEeyL65lmF-YM2A" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kyCWlefrEeyL65lmF-YM2A" points="[0, 0, 0, -30]$[0, 30, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kyfCcOfrEeyL65lmF-YM2A" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kyfCcefrEeyL65lmF-YM2A" id="(0.5,0.0)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
