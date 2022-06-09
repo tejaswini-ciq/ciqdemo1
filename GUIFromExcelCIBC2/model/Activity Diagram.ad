@@ -14,6 +14,11 @@
           <clause xmi:type="ad:FunctionCallClause" xmi:id="_dtxqkufgEey-294VyxMX0w" methodRef="qmla557fbf50c564c4e8025242d322715bc_Dont_Care_Value"/>
         </inputArgs>
       </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_18LA4OfjEeyL65lmF-YM2A" methodRef="name_tag">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_18LA4efjEeyL65lmF-YM2A">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_4HnkwOfjEeyL65lmF-YM2A" value="CustomerInfoRequestResponse"/>
+        </inputArgs>
+      </actionInvocations>
     </nodes>
   </ad:ActivityDiagram>
   <notation:Diagram xmi:id="_Yq7bwOfgEey-294VyxMX0w" type="ConformiqActivityChart" element="_YqyR0OfgEey-294VyxMX0w" name="Activity Diagram.ad" measurementUnit="Pixel">
@@ -40,12 +45,19 @@
           <styles xmi:type="notation:FillStyle" xmi:id="_dtxqlufgEey-294VyxMX0w"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dtxql-fgEey-294VyxMX0w"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_18LA4ufjEeyL65lmF-YM2A" type="3001" element="_18LA4OfjEeyL65lmF-YM2A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_18LA5-fjEeyL65lmF-YM2A" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_18LA4-fjEeyL65lmF-YM2A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_18LA5OfjEeyL65lmF-YM2A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_18LA5efjEeyL65lmF-YM2A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_18LA5ufjEeyL65lmF-YM2A"/>
+        </children>
         <styles xmi:type="notation:SortingStyle" xmi:id="_asayZufgEey-294VyxMX0w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_asayZ-fgEey-294VyxMX0w"/>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_asayYefgEey-294VyxMX0w"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_asayYufgEey-294VyxMX0w" fontName="Segoe UI"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_asayY-fgEey-294VyxMX0w" x="20" y="90" width="230" height="93"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_asayY-fgEey-294VyxMX0w" x="20" y="90" width="230"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Yq7bwefgEey-294VyxMX0w"/>
     <edges xmi:type="notation:Edge" xmi:id="_fGyr8efgEey-294VyxMX0w" type="4001" element="_fGyr8OfgEey-294VyxMX0w" source="_Z9wVkOfgEey-294VyxMX0w" target="_asayYOfgEey-294VyxMX0w">
